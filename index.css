@@ -118,9 +118,10 @@ p {
   display: none;
   position: absolute;
   width: 100%;
-  max-width: 588px;
+  max-width: 606px;
   background-color: #fff;
   border: 1px solid #ccc;
+  color: #57677d;;
   border-top: none;
   border-radius: 0 0 5px 5px;
   max-height: 150px;
@@ -134,15 +135,6 @@ p {
   cursor: pointer;
 }
 
-.selectedOptions {
-  font-size: 17px;
-  line-height: 1.4em;
-
-  color: #e72076;
-  border-radius: 10px;
-  background-color: #bc0d8d;
-}
-
 #industrySelected .selectedOptions {
   font-size: 17px;
   line-height: 1.4em;
@@ -153,7 +145,7 @@ p {
 
 .selectedOption {
   background-color: #eff1e9;
-  color: #101a28;
+  color: #57677d;
   padding: 8px 11px;
   border-radius: 15px;
 }
@@ -165,11 +157,9 @@ p {
 .arrowUp {
   position: absolute;
   right: 10px;
-  /* bottom: 20px; */
 }
 
 .arrowDown {
   position: absolute;
   right: 10px;
-  /* bottom: 20px; */
 }
