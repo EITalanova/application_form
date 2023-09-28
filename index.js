@@ -1,6 +1,7 @@
 const selectedOptionsContainer = document.getElementById(
   "selectedOptionsContainer"
 );
+const selectedOptionsBox = document.getElementById("selectedOptionsBox");
 const optionsList = document.querySelector(".industryList");
 const checkboxes = document.querySelectorAll(
   '.industryList input[type="checkbox"]'
@@ -37,7 +38,7 @@ checkboxes.forEach((checkbox) => {
     if (selectedValues.length === 0) {
       selectedOptionsContainer.insertAdjacentHTML(
         "beforeend",
-        '<p class="placeholder" id="placeholder">Select options</p>'
+        '<p class="placeholder" id="placeholder">Select options</p><img class="arrowDown" src="arrowDown.svg" alt="pic" width="30" />'
       );
     }
 
