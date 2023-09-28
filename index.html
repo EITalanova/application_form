@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OBS group</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="mainContainer">
+      <h1 class="title">Test task</h1>
+      <p class="discription">
+        The form allows you to select multiple options in a field. The form was implemented using a button and a block with
+        answer options.
+        When selecting, options are formed in the selection field and, if necessary, transferred to another line (the
+        implementation option was chosen not separated by commas, but in blocks for a better visual effect).
+        The selection field also has a movable placeholder.
+      </p>
+
+      <div class="select">
+        <p class="selectDiscription">
+          Please describe the main business or industry you are associated with
+          or would like to be associated with within the community
+        </p>
+
+        <button class="selectedOptionsContainer" id="selectedOptionsContainer">
+          <p class="placeholder" id="placeholder">Select options</p>
+          <img class="arrowDown" src="/arrowDown.svg" alt="pic" width="30" />
+          <img
+            class="arrowUp invisible"
+            src="/arrowUp.svg"
+            alt="pic"
+            width="30"
+          />
+        </button>
+
+        <div class="industryList">
+          <label>
+            <input type="checkbox" value=" Real Estate / Construction" />
+            Real Estate / Construction
+          </label>
+          <label>
+            <input type="checkbox" value="Manufacturing" />
+            Manufacturing
+          </label>
+          <label>
+            <input type="checkbox" value=" Financial" />
+            Financial
+          </label>
+          <label>
+            <input type="checkbox" value="Consumer Products" /> Consumer
+            Products
+          </label>
+          <label>
+            <input type="checkbox" value=" High Technology" />
+            High Technology
+          </label>
+          <label>
+            <input type="checkbox" value=" Retail Services" />
+            Retail Services
+          </label>
+          <label>
+            <input type="checkbox" value=" Professional Services" />
+            Professional Services
+          </label>
+          <label>
+            <input type="checkbox" value=" Health Care" />
+            Health Care
+          </label>
+          <label>
+            <input type="checkbox" value=" Transportation" />
+            Transportation
+          </label>
+          <label>
+            <input type="checkbox" value=" Raw Materials / Energy" />
+            Raw Materials / Energy
+          </label>
+          <label>
+            <input type="checkbox" value=" Other" />
+            Other
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <script src="/index.js" type="module"></script>
+  </body>
+</html>
